@@ -1,0 +1,380 @@
+$date
+	Thu Feb 25 01:46:42 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Probador $end
+$var wire 3 ! S [2:0] $end
+$var wire 4 " Q [3:0] $end
+$var wire 32 # I [31:0] $end
+$scope module mux8x1 $end
+$var wire 4 $ c_arriba [3:0] $end
+$var wire 4 % c_abajo [3:0] $end
+$var wire 3 & S [2:0] $end
+$var wire 4 ' Q [3:0] $end
+$var wire 32 ( I [31:0] $end
+$scope module mux_abajo $end
+$var wire 16 ) I [15:0] $end
+$var wire 2 * S [1:0] $end
+$var wire 4 + c_arriba [3:0] $end
+$var wire 4 , c_abajo [3:0] $end
+$var wire 4 - Q [3:0] $end
+$scope module mux_abajo $end
+$var wire 8 . I [7:0] $end
+$var wire 1 / S $end
+$var wire 4 0 Q [3:0] $end
+$upscope $end
+$scope module mux_arriba $end
+$var wire 8 1 I [7:0] $end
+$var wire 1 2 S $end
+$var wire 4 3 Q [3:0] $end
+$upscope $end
+$scope module mux_final $end
+$var wire 8 4 I [7:0] $end
+$var wire 1 5 S $end
+$var wire 4 6 Q [3:0] $end
+$upscope $end
+$upscope $end
+$scope module mux_arriba $end
+$var wire 16 7 I [15:0] $end
+$var wire 2 8 S [1:0] $end
+$var wire 4 9 c_arriba [3:0] $end
+$var wire 4 : c_abajo [3:0] $end
+$var wire 4 ; Q [3:0] $end
+$scope module mux_abajo $end
+$var wire 8 < I [7:0] $end
+$var wire 1 = S $end
+$var wire 4 > Q [3:0] $end
+$upscope $end
+$scope module mux_arriba $end
+$var wire 8 ? I [7:0] $end
+$var wire 1 @ S $end
+$var wire 4 A Q [3:0] $end
+$upscope $end
+$scope module mux_final $end
+$var wire 8 B I [7:0] $end
+$var wire 1 C S $end
+$var wire 4 D Q [3:0] $end
+$upscope $end
+$upscope $end
+$scope module mux_final $end
+$var wire 8 E I [7:0] $end
+$var wire 1 F S $end
+$var wire 4 G Q [3:0] $end
+$upscope $end
+$upscope $end
+$scope module signals_generator $end
+$var wire 4 H Q [3:0] $end
+$var reg 32 I I [31:0] $end
+$var reg 3 J S [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx J
+b1110110010101000011001000010000 I
+b0xxx H
+b0xxx G
+xF
+b1xx00xx E
+b0xx D
+xC
+b1x000x B
+b0x A
+x@
+b10000 ?
+b1x >
+x=
+b110010 <
+b0xx ;
+b1x :
+b0x 9
+bx 8
+b11001000010000 7
+b1xx 6
+x5
+b11x010x 4
+b10x 3
+x2
+b1010100 1
+b11x 0
+x/
+b1110110 .
+b1xx -
+b11x ,
+b10x +
+bx *
+b111011001010100 )
+b1110110010101000011001000010000 (
+b0xxx '
+bx &
+b1xx %
+b0xx $
+b1110110010101000011001000010000 #
+b0xxx "
+bx !
+$end
+#1
+b100 +
+b100 3
+b1100100 4
+b110 ,
+b110 0
+b100 %
+b100 -
+b100 6
+b0 9
+b0 A
+b100000 B
+b10 :
+b10 >
+b1000000 E
+b0 $
+b0 ;
+b0 D
+02
+0/
+05
+0@
+0=
+0C
+b0 "
+b0 '
+b0 G
+b0 H
+b0 *
+b0 8
+0F
+b0 !
+b0 &
+b0 J
+#2
+b1 "
+b1 '
+b1 G
+b1 H
+b101 %
+b101 -
+b101 6
+b1010001 E
+b1 $
+b1 ;
+b1 D
+b101 +
+b101 3
+b1110101 4
+b111 ,
+b111 0
+b1 9
+b1 A
+b110001 B
+b11 :
+b11 >
+12
+1/
+1@
+1=
+b1 *
+b1 8
+b1 !
+b1 &
+b1 J
+#3
+b10 "
+b10 '
+b10 G
+b10 H
+b100 +
+b100 3
+b1100100 4
+b110 ,
+b110 0
+b110 %
+b110 -
+b110 6
+b0 9
+b0 A
+b100000 B
+b10 :
+b10 >
+b1100010 E
+b10 $
+b10 ;
+b10 D
+02
+0/
+15
+0@
+0=
+1C
+b10 *
+b10 8
+b10 !
+b10 &
+b10 J
+#4
+b11 "
+b11 '
+b11 G
+b11 H
+b111 %
+b111 -
+b111 6
+b1110011 E
+b11 $
+b11 ;
+b11 D
+b101 +
+b101 3
+b1110101 4
+b111 ,
+b111 0
+b1 9
+b1 A
+b110001 B
+b11 :
+b11 >
+12
+1/
+1@
+1=
+b11 *
+b11 8
+b11 !
+b11 &
+b11 J
+#5
+b100 +
+b100 3
+b1100100 4
+b110 ,
+b110 0
+b100 %
+b100 -
+b100 6
+b0 9
+b0 A
+b100000 B
+b10 :
+b10 >
+b1000000 E
+b0 $
+b0 ;
+b0 D
+02
+0/
+05
+0@
+0=
+0C
+b100 "
+b100 '
+b100 G
+b100 H
+b0 *
+b0 8
+1F
+b100 !
+b100 &
+b100 J
+#6
+b101 "
+b101 '
+b101 G
+b101 H
+b101 %
+b101 -
+b101 6
+b1010001 E
+b1 $
+b1 ;
+b1 D
+b101 +
+b101 3
+b1110101 4
+b111 ,
+b111 0
+b1 9
+b1 A
+b110001 B
+b11 :
+b11 >
+12
+1/
+1@
+1=
+b1 *
+b1 8
+b101 !
+b101 &
+b101 J
+#7
+b110 "
+b110 '
+b110 G
+b110 H
+b100 +
+b100 3
+b1100100 4
+b110 ,
+b110 0
+b110 %
+b110 -
+b110 6
+b0 9
+b0 A
+b100000 B
+b10 :
+b10 >
+b1100010 E
+b10 $
+b10 ;
+b10 D
+02
+0/
+15
+0@
+0=
+1C
+b10 *
+b10 8
+b110 !
+b110 &
+b110 J
+#8
+b111 "
+b111 '
+b111 G
+b111 H
+b111 %
+b111 -
+b111 6
+b1110011 E
+b11 $
+b11 ;
+b11 D
+b101 +
+b101 3
+b1110101 4
+b111 ,
+b111 0
+b1 9
+b1 A
+b110001 B
+b11 :
+b11 >
+12
+1/
+1@
+1=
+b11 *
+b11 8
+b111 !
+b111 &
+b111 J
+#9

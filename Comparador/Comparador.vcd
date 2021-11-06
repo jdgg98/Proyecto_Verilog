@@ -1,0 +1,129 @@
+$date
+	Thu Feb 25 01:50:03 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Probador $end
+$var wire 4 ! mesRef [3:0] $end
+$var wire 4 " mes [3:0] $end
+$var wire 5 # diaRef [4:0] $end
+$var wire 5 $ dia [4:0] $end
+$var wire 2 % V [1:0] $end
+$scope module comparador $end
+$var wire 4 & mesRef [3:0] $end
+$var wire 4 ' mes [3:0] $end
+$var wire 5 ( diaRef [4:0] $end
+$var wire 5 ) dia [4:0] $end
+$var reg 2 * V [1:0] $end
+$upscope $end
+$scope module signals_generator $end
+$var wire 2 + V [1:0] $end
+$var reg 5 , dia [4:0] $end
+$var reg 5 - diaRef [4:0] $end
+$var reg 4 . mes [3:0] $end
+$var reg 4 / mesRef [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 /
+bx .
+b10110 -
+bx ,
+b10 +
+b10 *
+bx )
+b10110 (
+bx '
+b10 &
+b10 %
+bx $
+b10110 #
+bx "
+b10 !
+$end
+#1
+b0 %
+b0 *
+b0 +
+b1111 "
+b1111 '
+b1111 .
+b11111 $
+b11111 )
+b11111 ,
+#2
+b0 "
+b0 '
+b0 .
+b0 $
+b0 )
+b0 ,
+#3
+b10 "
+b10 '
+b10 .
+b11110 $
+b11110 )
+b11110 ,
+#4
+b110 "
+b110 '
+b110 .
+b11111 $
+b11111 )
+b11111 ,
+#5
+b1110 "
+b1110 '
+b1110 .
+b101 $
+b101 )
+b101 ,
+#6
+b1111 "
+b1111 '
+b1111 .
+b10001 $
+b10001 )
+b10001 ,
+#7
+b1 %
+b1 *
+b1 +
+b10 "
+b10 '
+b10 .
+b10110 $
+b10110 )
+b10110 ,
+#8
+b1 "
+b1 '
+b1 .
+b1 $
+b1 )
+b1 ,
+#9
+b10 %
+b10 *
+b10 +
+b100 "
+b100 '
+b100 .
+b1110 $
+b1110 )
+b1110 ,
+#10
+b10 "
+b10 '
+b10 .
+b10111 $
+b10111 )
+b10111 ,
+#11
